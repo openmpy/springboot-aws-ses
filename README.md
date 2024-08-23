@@ -11,3 +11,9 @@ aws:
     secret-key: IAM Secret Key
     region: ap-northeast-2
 ```
+
+## 명령어
+```
+aws configure
+aws ses create-template --cli-input-json file://template.json
+```
